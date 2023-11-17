@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.production.css">
 </head>
 <body>
     <header class="page-header">
@@ -16,17 +16,17 @@
     
                 <div class="menu-item">
                 
-                    <a href="Index.html" role="menuitem">Home</a>
+                    <a href="index.html" role="menuitem">Home</a>
 
                 </div>
                 <div class="menu-item">
                
-                    <a href="contact s turbide.html" role="menuitem">Contact</a>
+                    <a href="contact-sturbide.html" role="menuitem">Contact</a>
                 
                 </div>
                 <div class="menu-item">
                 
-                     <a href="about s turbide.html" role="menuitem">About Me</a>
+                     <a href="about.html" role="menuitem">About Me</a>
                
                 </div>
                 <div class="menu-item">
@@ -34,16 +34,18 @@
                     <a href="work.html" role="menuitem">Work</a>
             
                 </div>
+            
         
- </header>
+    </header>
     <main>
-        <h1>Contact Info:</h1>
-        <h2>Scott Turbide</h2>
-        <br>
-        Phone <a href="tel:978.270.0000" role="phone number"> 978.270.0000</a>
-         <br>
-        Email: <a href="mailto:scott@scottturbide.com" role="email address">scott@scottturbide.com</a>
-        <br>
+        <div class="contact">
+            <h1>Contact Info:</h1>
+            <h2>Scott Turbide</h2>
+            <br>
+            Phone <a href="tel:978.270.0000" role="phone number"> 978.270.0000</a>
+             <br>
+            Email: <a href="mailto:scott@scottturbide.com" role="email address">scott@scottturbide.com</a>
+            <br>
 
             <form action="" method="post" id="contact-form">
 
@@ -54,9 +56,10 @@
                  <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-phone">
 
                 <label class="standard-label" for="message"> Message: </label>
-                 <textarea required maxlength="240" id="message" required> </textarea>
+                 <textarea maxlength="240" id="message" required> </textarea>
                  <input type="submit" value="Send message" id="send message">
             </form>
+        </div>
     </main>
     <footer class="page-footer">
         <p>Find me on</p>

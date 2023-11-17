@@ -4,6 +4,8 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
     font-size: 16px;
+    border: 20px;
+    margin: 20px;
 /* sets font size to 16px */
     line-height: 1.6;
 /* sets line-height to 1.6*/
@@ -103,6 +105,18 @@ grid-row: 1 / 3;
 }
 
 .about{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.work{
     max-width: 700px;
     margin: 0 auto;
     padding: 20px;
